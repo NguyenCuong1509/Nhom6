@@ -28,92 +28,131 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
+            panel1 = new Panel();
+            panel2 = new Panel();
             label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            pictureBox1 = new PictureBox();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // panel1
             // 
-            button1.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(374, 360);
-            button1.Name = "button1";
-            button1.Size = new Size(243, 67);
-            button1.TabIndex = 9;
-            button1.Text = "Đăng nhập";
-            button1.UseVisualStyleBackColor = true;
+            panel1.BackColor = Color.FromArgb(192, 255, 255);
+            panel1.Controls.Add(label1);
+            panel1.Font = new Font("Times New Roman", 16F, FontStyle.Bold);
+            panel1.Location = new Point(169, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(905, 139);
+            panel1.TabIndex = 0;
             // 
-            // textBox2
+            // panel2
             // 
-            textBox2.Location = new Point(332, 291);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(422, 31);
-            textBox2.TabIndex = 8;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(332, 241);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(422, 31);
-            textBox1.TabIndex = 7;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
-            label3.Location = new Point(99, 291);
-            label3.Name = "label3";
-            label3.Size = new Size(112, 26);
-            label3.TabIndex = 4;
-            label3.Text = "Mật khẩu";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
-            label2.Location = new Point(99, 241);
-            label2.Name = "label2";
-            label2.Size = new Size(164, 26);
-            label2.TabIndex = 5;
-            label2.Text = "Tên đăng nhập";
+            panel2.BackColor = Color.FromArgb(255, 255, 192);
+            panel2.Controls.Add(button4);
+            panel2.Controls.Add(button3);
+            panel2.Controls.Add(button2);
+            panel2.Controls.Add(button1);
+            panel2.Font = new Font("Times New Roman", 16F, FontStyle.Bold);
+            panel2.ForeColor = Color.Black;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(170, 677);
+            panel2.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Times New Roman", 26F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(364, 129);
+            label1.ForeColor = Color.FromArgb(64, 64, 64);
+            label1.Location = new Point(285, 21);
             label1.Name = "label1";
-            label1.Size = new Size(253, 60);
-            label1.TabIndex = 6;
-            label1.Text = "Trang chủ";
+            label1.Size = new Size(422, 60);
+            label1.TabIndex = 0;
+            label1.Text = "Quản lý bán hàng";
+            // 
+            // button1
+            // 
+            button1.BackgroundImage = Properties.Resources.nền;
+            button1.Location = new Point(0, 0);
+            button1.Name = "button1";
+            button1.Size = new Size(171, 139);
+            button1.TabIndex = 0;
+            button1.Text = "MENU";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.BackgroundImage = Properties.Resources.nền1;
+            button2.Location = new Point(-1, 136);
+            button2.Name = "button2";
+            button2.Size = new Size(171, 102);
+            button2.TabIndex = 1;
+            button2.Text = "Hóa đơn";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.BackgroundImage = Properties.Resources.nền1;
+            button3.Font = new Font("Times New Roman", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(0, 235);
+            button3.Name = "button3";
+            button3.Size = new Size(171, 103);
+            button3.TabIndex = 2;
+            button3.Text = "Nhập hàng";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.BackgroundImage = Properties.Resources.nền1;
+            button4.Location = new Point(0, 590);
+            button4.Name = "button4";
+            button4.Size = new Size(171, 84);
+            button4.TabIndex = 3;
+            button4.Text = "Thông tin nhân viên";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.FPT_Polytechnic;
+            pictureBox1.Location = new Point(221, 145);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(824, 297);
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
             // 
             // Nhan_vien
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(966, 662);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            BackColor = Color.White;
+            ClientSize = new Size(1073, 671);
+            Controls.Add(panel1);
+            Controls.Add(panel2);
+            Controls.Add(pictureBox1);
             Name = "Nhan_vien";
             Text = "Nhan_vien";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label3;
-        private Label label2;
+        private Panel panel1;
+        private Panel panel2;
         private Label label1;
+        private Button button4;
+        private Button button3;
+        private Button button2;
+        private Button button1;
+        private PictureBox pictureBox1;
     }
 }
