@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PRL
 {
-    public partial class Chu_cua_hang : Form
+    public partial class QuanLyThuChi : Form
     {
-        public Chu_cua_hang()
+        public QuanLyThuChi()
         {
             InitializeComponent();
         }
