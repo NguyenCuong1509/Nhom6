@@ -35,132 +35,143 @@
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
+            E_NV = new TextBox();
+            ID_CH_NV = new TextBox();
+            SDT_NV = new TextBox();
+            CV_NV = new TextBox();
+            ID_NV = new TextBox();
+            Ten_NV = new TextBox();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial Narrow", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(240, 24);
+            label1.Font = new Font("Arial", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(245, 9);
             label1.Name = "label1";
-            label1.Size = new Size(286, 43);
+            label1.Size = new Size(374, 44);
             label1.TabIndex = 0;
             label1.Text = "Thông tin nhân viên";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(37, 90);
+            label2.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold);
+            label2.Location = new Point(74, 78);
             label2.Name = "label2";
-            label2.Size = new Size(50, 20);
+            label2.Size = new Size(169, 32);
             label2.TabIndex = 1;
-            label2.Text = "label2";
+            label2.Text = "ID Cửa hàng";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(203, 147);
+            label3.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold);
+            label3.Location = new Point(74, 120);
             label3.Name = "label3";
-            label3.Size = new Size(50, 20);
+            label3.Size = new Size(174, 32);
             label3.TabIndex = 2;
-            label3.Text = "label3";
+            label3.Text = "ID Nhân viên";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(215, 200);
+            label4.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold);
+            label4.Location = new Point(74, 168);
             label4.Name = "label4";
-            label4.Size = new Size(50, 20);
+            label4.Size = new Size(107, 32);
             label4.TabIndex = 3;
-            label4.Text = "label4";
+            label4.Text = "Tên NV";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(342, 265);
+            label5.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold);
+            label5.Location = new Point(74, 213);
             label5.Name = "label5";
-            label5.Size = new Size(50, 20);
+            label5.Size = new Size(116, 32);
             label5.TabIndex = 4;
-            label5.Text = "label5";
+            label5.Text = "Chức vụ";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(394, 312);
+            label6.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold);
+            label6.Location = new Point(74, 258);
             label6.Name = "label6";
-            label6.Size = new Size(50, 20);
+            label6.Size = new Size(68, 32);
             label6.TabIndex = 5;
-            label6.Text = "label6";
+            label6.Text = "SDT";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(411, 337);
+            label7.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold);
+            label7.Location = new Point(74, 303);
             label7.Name = "label7";
-            label7.Size = new Size(50, 20);
+            label7.Size = new Size(85, 32);
             label7.TabIndex = 6;
-            label7.Text = "label7";
+            label7.Text = "Email";
             // 
-            // textBox1
+            // E_NV
             // 
-            textBox1.Location = new Point(402, 142);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 7;
+            E_NV.Font = new Font("Times New Roman", 16.2F);
+            E_NV.Location = new Point(249, 301);
+            E_NV.Name = "E_NV";
+            E_NV.Size = new Size(386, 39);
+            E_NV.TabIndex = 7;
             // 
-            // textBox2
+            // ID_CH_NV
             // 
-            textBox2.Location = new Point(474, 253);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 8;
+            ID_CH_NV.Font = new Font("Times New Roman", 16.2F);
+            ID_CH_NV.Location = new Point(249, 76);
+            ID_CH_NV.Name = "ID_CH_NV";
+            ID_CH_NV.Size = new Size(386, 39);
+            ID_CH_NV.TabIndex = 8;
             // 
-            // textBox3
+            // SDT_NV
             // 
-            textBox3.Location = new Point(510, 301);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(125, 27);
-            textBox3.TabIndex = 9;
+            SDT_NV.Font = new Font("Times New Roman", 16.2F);
+            SDT_NV.Location = new Point(249, 256);
+            SDT_NV.Name = "SDT_NV";
+            SDT_NV.Size = new Size(386, 39);
+            SDT_NV.TabIndex = 9;
             // 
-            // textBox4
+            // CV_NV
             // 
-            textBox4.Location = new Point(527, 346);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(125, 27);
-            textBox4.TabIndex = 10;
+            CV_NV.Font = new Font("Times New Roman", 16.2F);
+            CV_NV.Location = new Point(249, 213);
+            CV_NV.Name = "CV_NV";
+            CV_NV.Size = new Size(386, 39);
+            CV_NV.TabIndex = 10;
             // 
-            // textBox5
+            // ID_NV
             // 
-            textBox5.Location = new Point(493, 189);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
-            textBox5.TabIndex = 11;
+            ID_NV.Font = new Font("Times New Roman", 16.2F);
+            ID_NV.Location = new Point(249, 121);
+            ID_NV.Name = "ID_NV";
+            ID_NV.Size = new Size(386, 39);
+            ID_NV.TabIndex = 11;
             // 
-            // textBox6
+            // Ten_NV
             // 
-            textBox6.Location = new Point(582, 119);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(125, 27);
-            textBox6.TabIndex = 12;
+            Ten_NV.Font = new Font("Times New Roman", 16.2F);
+            Ten_NV.Location = new Point(249, 166);
+            Ten_NV.Name = "Ten_NV";
+            Ten_NV.Size = new Size(386, 39);
+            Ten_NV.TabIndex = 12;
             // 
             // ThongTinNhanVien
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(Ten_NV);
+            Controls.Add(ID_NV);
+            Controls.Add(CV_NV);
+            Controls.Add(SDT_NV);
+            Controls.Add(ID_CH_NV);
+            Controls.Add(E_NV);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -183,11 +194,11 @@
         private Label label5;
         private Label label6;
         private Label label7;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
+        private TextBox E_NV;
+        private TextBox ID_CH_NV;
+        private TextBox SDT_NV;
+        private TextBox CV_NV;
+        private TextBox ID_NV;
+        private TextBox Ten_NV;
     }
 }
